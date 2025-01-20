@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>EliGen Project Page </title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">EliGen: Entity-Level Controlled Image Generation with Regional Attention</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser video -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop style="width: 70%; height: 30%; display: block; margin: auto;">
+        <source src="static/videos/frames_0117.mp4" type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        EliGen can achieve continuous movement of entities with consistent visual identity.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <h2 class="title is-3 has-text-centered">Gallery</h2>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/gallery/0.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          A breathtaking beauty of Raja Ampat by the late-night moonlight , one beautiful woman from behind wearing a pale blue long dress with soft glow, sitting at the top of a cliff looking towards the beach,pastell light colors, a group of small distant birds flying in far sky, a boat sailing on the sea, best quality, realistic, whimsical, fantastic, splash art.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/gallery/4.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          A captivating, dramatic scene in a painting that exudes mystery and foreboding. A white sky, swirling blue clouds, and a crescent yellow moon illuminate a solitary woman standing near the water's edge. Her long dress flows in the wind, silhouetted against the eerie glow. The water mirrors the fiery sky and moonlight, amplifying the uneasy atmosphere.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/gallery/1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          samurai girl wearing a kimono, she's holding a sword  glowing with red flame, her long hair is flowing in the wind, she is looking at a small bird perched on the back of her hand.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/gallery/3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          A beautiful girl wearing shirt and shorts in the street,  holding a sign 'Entity Control'
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/gallery/5.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Snow White and the 6 Dwarfs.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <h2 class="title is-3 has-text-centered">Generations with Different Seeds</h2>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_0.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_4.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_4.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_5.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_7.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_8.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/row_2_1_output/row_2_1_9.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+        Global Prompt: A beautiful woman wearing white dress, holding a mirror, with a warm light background.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_0.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_1.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+  
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_2.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_3.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_4.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_4.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_5.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_7.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_8.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/palace_output/palace_9.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+          Global Prompt: Image of a neverending staircase up to a mysterious palace in the sky, The ancient palace stood majestically atop a mist-shrouded mountain, sunrise, two traditional monk walk in the stair looking at the sunrise.
+          </h2>
+        </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- End image carousel -->
+
+
+<!-- Gallery Section -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-centered">Styled Entity Control with IP-Adapter</h2>
+      <!-- Gallery Item 1 -->
+      <div class="gallery-item" style="margin-bottom: 40px;">
+        <img src="static/images/ipadapter.jpg" alt="Image 1" style="width: 100%; height: auto; border-radius: 8px;">
+        <h3 class="subtitle has-text-centered" style="margin-top: 10px;"></h3>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Gallery Section -->
+
+<!-- Gallery Section -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-centered">Entity Transfer with In-Context LoRA</h2>
+      <!-- Gallery Item 1 -->
+      <div class="gallery-item" style="margin-bottom: 40px;">
+        <img src="static/images/ICLoRA.jpg" alt="Image 1" style="width: 100%; height: auto; border-radius: 8px;">
+        <h3 class="subtitle has-text-centered" style="margin-top: 10px;"></h3>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Gallery Section -->
+
+<!-- Gallery Section -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-centered">Pure Text-to-Image Generations</h2>
+      <!-- Gallery Item 1 -->
+      <div class="gallery-item" style="margin-bottom: 40px;">
+        <img src="static/images/t2i.jpg" alt="Image 1" style="width: 100%; height: auto; border-radius: 8px;">
+        <h3 class="subtitle has-text-centered" style="margin-top: 10px;"></h3>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Gallery Section -->
+
+  </body>
+  </html>
